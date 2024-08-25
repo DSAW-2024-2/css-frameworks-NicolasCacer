@@ -1,7 +1,9 @@
-# Reto de HTML y CSS con Bootstrap y TailwindCSS
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/U1bmlN1t)
+# Links páginas
+* Bootstrap: https://dsaw-2024-2.github.io/css-frameworks-NicolasCacer/bootstrap-workshop/
+* Tailwind: https://dsaw-2024-2.github.io/css-frameworks-NicolasCacer/tailwindcss-workshop/
 
-![Design preview for the Results summary component coding challenge](./assets/design/desktop-preview.jpg)
-![Design preview for the Results summary component coding challenge](./assets/design/mobile-design.jpg)
+# Reto de HTML y CSS con Bootstrap y TailwindCSS
 
 Este proyecto consiste en resolver un reto de HTML y CSS dos veces, una utilizando el framework Bootstrap y otra utilizando TailwindCSS. El objetivo principal es crear dos versiones del mismo diseño, siendo lo más parecidas posible al diseño original.
 
