@@ -1,10 +1,61 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
+  <title>Eau de Parfum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #F5F5DC;
+      height: 100vh;
+      .container {
+        height: 100vh;
+        background-color: blue;
+      }
+      .product-card {
+        max-height: 100%;
+        .card-title {
+          font-family: 'Libre Baskerville', serif;
+          font-weight: bold;
+        }
+        .card-text, .price, .original-price {
+          font-family: 'Nunito Sans', sans-serif;
+        }
+        .price {
+          font-family: 'Nunito Sans', sans-serif;
+          color: #198750;
+        }
+      }
+    }
+    .button {
+      background-color: #198750;
+      font-family: 'Nunito Sans', sans-serif;;
+    }
+  </style>
+  </head>
+<body class="m-0 p-8">
+  <div class="container m-0 p-0 rounded-lg flex justify-center align-center max-height-400">
+      <div class="product-card rounded-lg shadow-lg flex flex-col bg-white w-full h-full">
+        <picture>
+          <source media="(min-width: 768px)" srcset="\assets\images\image-product-desktop.jpg">
+          <img src="\assets\images\image-product-mobile.jpg" class="rounded-t-lg w-full md:w-1/2" alt="Gabrielle Essence Eau De Parfum">
+        </picture>
+        <div class="card-body p-4 flex flex-col justify-content-evenly">
+          <p class="text-muted text-uppercase text-gray-500 tracking-[3px]">PERFUME</p>
+          <h5 class="card-title text-xl">Gabrielle Essence Eau De Parfum</h5>
+          <p class="card-text m-0 text-gray-700 text-s">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+          <div class="flex items-center">
+              <span class="price text-xl font-bold">$149.99</span>
+              <span class="ml-2 original-price line-through text-gray-500 text-xs">$169.99</span>
+          </div>
+          <div class="button text-white flex items-center justify-center rounded" style="text-indent:5px;">
+            <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>
+            Add to Cart
+          </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
